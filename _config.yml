@@ -1,0 +1,3 @@
+source: www
+destination: build
+timezone: America/New_York
