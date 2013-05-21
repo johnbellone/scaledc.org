@@ -1,3 +1,6 @@
-source: www
+source: app
 destination: build
 timezone: America/New_York
+exclude: %w(script .git Vagrantfile Gemfile Gemfile.lock Cheffile Cheffile.lock node_modules test .vagrant .bundle)
+layouts: layouts
+plugins: plugins
