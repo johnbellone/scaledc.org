@@ -1,6 +1,6 @@
 {
-  "name": "scaledc.org",
-  "version": "0.0.0",
+  "name": "scaledcorg",
+  "version": "0.0.1",
   "dependencies": {
     "angular": "~1.0.5",
     "json3": "~3.2.4",
