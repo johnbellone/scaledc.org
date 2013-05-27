@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('scaledc.orgApp')
+angular.module('scaledcApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

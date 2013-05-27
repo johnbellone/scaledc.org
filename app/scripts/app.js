@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('scaledc.orgApp', [])
+angular.module('scaledcApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -11,8 +11,3 @@ angular.module('scaledc.orgApp', [])
         redirectTo: '/'
       });
   });
-
-window.onload = function () {
-    var scientist = new Scientist();
-    scientist.initialize('UA-41226650-1').trackPageView();
-};
